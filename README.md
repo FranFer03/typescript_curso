@@ -1,4 +1,4 @@
-# Curso de TypeScript - Fernando Herrera
+# Curso de TypeScript
 
 Este repositorio contiene los ejercicios y prácticas del curso de TypeScript impartido por Fernando Herrera.
 
