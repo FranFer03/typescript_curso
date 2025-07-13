@@ -1,5 +1,7 @@
+import { config } from "./config.js";
+
 (() => {
-  const api_key = "1e9e93412a754f11e3ef3bffab30c917";
+  const api_key = config.OPENWEATHER_API_KEY;
 
   async function obtenerClima(ciudad: string): Promise<void> {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(
