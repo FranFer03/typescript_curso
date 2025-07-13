@@ -49,25 +49,25 @@ Repositorio donde estoy aprendiendo TypeScript desde cero hasta conceptos avanza
    npm install -g typescript
    ```
 
-4. **Compilar archivos TypeScript**
+4. **Instalar Live Server para visualizar los archivos HTML**
 
    ```bash
-   # Para compilar un archivo específico
-   tsc archivo.ts
-
-   # Para compilar automáticamente al detectar cambios
-   tsc -w archivo.ts
+   npm install -g live-server
    ```
 
-5. **Ejecutar los ejemplos**
+   **Ejecutar Live Server:**
 
    ```bash
-   # Opción 1: Compilar y ejecutar con Node
-   tsc app.ts && node app.js
+   # Navegar a la carpeta que contiene archivos HTML
+   cd bases
+   # o
+   cd practica
 
-   # Opción 2: Usar ts-node (si lo tienes instalado)
-   npx ts-node app.ts
+   # Ejecutar Live Server
+   live-server
    ```
+
+   Esto abrirá automáticamente tu navegador en `http://localhost:8080` y podrás ver los archivos HTML con recarga automática.
 
 ## Estructura del proyecto
 
